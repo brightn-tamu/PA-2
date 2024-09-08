@@ -15,7 +15,21 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border: 2px solid #ccc;
+}
+
+thead th {
+    background-color: #d3d3d3;
+    color: #333
+}
+
+/* Alternate row coloring */
+tbody tr:nth-child(even) {
+    background-color: #f0f0f0; /* Light gray for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e6e6e6; /* Slightly darker gray for odd rows */
 }
 
 /* Highlight the entire column */
@@ -132,20 +146,20 @@ form input[type="submit"]:hover {
 
 /* Edit button (blue) */
 .button.blue {
-    background-color: #6f42c1;
+    background-color: #007bff;
 }
 
 .button.blue:hover {
-    background-color: #5a31a6;
+    background-color: #0056b3;
 }
 
 /* Back button (green) */
 .button.green {
-    background-color: #28a745;
+    background-color: #6f42c1;
 }
 
 .button.green:hover {
-    background-color: #218838;
+    background-color: #5a31a6;
 }
 
 /* Destroy button (red) */
