@@ -119,7 +119,7 @@ form input[type="submit"]:hover {
     border-radius: 4px;
     text-align: center;
     cursor: pointer;
-    border: none;
+    border: black;
     display: inline-block;
 }
 
