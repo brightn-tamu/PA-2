@@ -1,0 +1,52 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Highlight the entire column */
+.column-highlight {
+    background-color: #f0f8ff; /* Light blue for the entire column */
+    color: #007bff;
+}
+
+/* Highlight only the header with different colors for ascending and descending */
+.header-sorted.asc {
+    background-color: #d4edda; /* Light green for ascending */
+}
+
+.header-sorted.desc {
+    background-color: #f8d7da; /* Light red for descending */
+}
+
+/* Style for the button */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Add spacing around the page */
+body {
+    padding: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Alternate row coloring */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
