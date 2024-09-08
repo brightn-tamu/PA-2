@@ -147,3 +147,13 @@ form input[type="submit"]:hover {
 .button.red:hover {
     background-color: #c82333;
 }
+
+/* Yellow button (Show movie) */
+.button.yellow {
+    background-color: #ffc107;
+    color: black; /* Ensure contrast with the yellow background */
+}
+
+.button.yellow:hover {
+    background-color: #e0a800;
+}

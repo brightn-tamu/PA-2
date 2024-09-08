@@ -7,7 +7,7 @@
 <br>
 
 <div class="button-group">
-  <%= link_to "Show this movie", movie_path(@movie, sort: params[:sort], direction: params[:direction]) %> |
+  <%= button_to "Show this movie", movie_path(@movie), class: "button yellow", method: :get %>
   <%= button_to "Back to movies", movies_path(sort: params[:sort], direction: params[:direction]), class: "button green", method: :get %>
 </div>
 
