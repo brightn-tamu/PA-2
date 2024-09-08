@@ -35,7 +35,10 @@
         <td class="<%= 'column-highlight' if params[:sort] == 'title' %>"><%= movie.title %></td>
         <td class="<%= 'column-highlight' if params[:sort] == 'rating' %>"><%= movie.rating %></td>
         <td class="<%= 'column-highlight' if params[:sort] == 'release_date' %>"><%= movie.release_date.strftime("%d-%b-%Y") %></td>
-        <td><%= link_to "Show this movie", movie %></td>
+        <td>
+          <%= link_to "Show this movie", movie_path(movie, sort: params[:sort], direction: params[:direction]) %>
+          <%= link_to "Edit", edit_movie_path(movie, sort: params[:sort], direction: params[:direction]) %>
+        </td>
       </tr>
     <% end %>
     </tbody>
@@ -47,4 +50,4 @@
   </table>
 </div>
 
-<%= link_to "New movie", new_movie_path, class: "button" %>
+<%= link_to "New movie", new_movie_path(sort: params[:sort], direction: params[:direction]), class: "button" %>
