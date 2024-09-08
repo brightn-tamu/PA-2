@@ -119,6 +119,8 @@ form input[type="submit"]:hover {
     border-radius: 4px;
     text-align: center;
     cursor: pointer;
+    border: none;
+    display: inline-block;
 }
 
 /* Edit button (blue) */
