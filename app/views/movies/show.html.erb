@@ -24,7 +24,7 @@
 <br>
 
 <div class="button-group">
-  <%= link_to "Edit this movie", edit_movie_path(@movie, sort: params[:sort], direction: params[:direction]), class: "button blue" %>
-  <%= link_to "Back to movies", movies_path(sort: params[:sort], direction: params[:direction]), class: "button green" %>
+  <%= button_to "Edit this movie", edit_movie_path(@movie, sort: params[:sort], direction: params[:direction]), class: "button blue" %>
+  <%= button_to "Back to movies", movies_path(sort: params[:sort], direction: params[:direction]), class: "button green" %>
   <%= button_to "Destroy this movie", @movie, method: :delete, class: "button red" %>
 </div>
