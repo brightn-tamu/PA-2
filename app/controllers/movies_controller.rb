@@ -39,6 +39,7 @@ class MoviesController < ApplicationController
     end
   end
 
+  # PATCH/PUT /movies/1 or /movies/1.json
   def update
     respond_to do |format|
       if @movie.update(movie_params)
@@ -50,7 +51,6 @@ class MoviesController < ApplicationController
       end
     end
   end
-
 
   # DELETE /movies/1 or /movies/1.json
   def destroy
