@@ -64,9 +64,9 @@ form {
 
 /* Style form fields */
 form input[type="text"], form input[type="date"], form textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
-    margin-bottom: 5px; /* Reduce the space between fields */
+    margin-bottom: 5px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
