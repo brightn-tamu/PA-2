@@ -1,3 +1,10 @@
+body {
+    background-color: #e0e0e0; /* Light gray */
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* General table styling */
 table {
     width: 100%;
@@ -125,11 +132,11 @@ form input[type="submit"]:hover {
 
 /* Edit button (blue) */
 .button.blue {
-    background-color: #007bff;
+    background-color: #6f42c1;
 }
 
 .button.blue:hover {
-    background-color: #0056b3;
+    background-color: #5a31a6;
 }
 
 /* Back button (green) */
@@ -153,7 +160,6 @@ form input[type="submit"]:hover {
 /* Yellow button (Show movie) */
 .button.yellow {
     background-color: #ffc107;
-    color: black; /* Ensure contrast with the yellow background */
 }
 
 .button.yellow:hover {
